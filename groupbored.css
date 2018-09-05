@@ -1,0 +1,71 @@
+html {
+    background-color: #CCCCCC;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#topBar {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#titleHeading {
+    float: left;
+}
+#login {
+    float: right;
+}
+#loginContainer {
+    margin-top: -10px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#loginForm {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 250px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+#loginTitle {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#loginForm input {
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 95%;
+}
+#loginForm button {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    background-color: #ff7777;
+    border: none;
+    text-decoration: none;
+}
+
+#postList {
+    clear: both;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+.groupPost {
+    background-color: #CCCCCC;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+    border-radius: 3px;
+}
