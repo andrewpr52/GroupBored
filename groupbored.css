@@ -1,5 +1,5 @@
 html {
-    background-color: #CCCCCC;
+    background-color: #ffdbdb;
     margin: 0px;
     padding: 0px;
 }
@@ -9,19 +9,45 @@ body {
 }
 
 #topBar {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    background-color: #c64139;
+    box-shadow: 0px 2px #550400;
 }
-#titleHeading {
+nav {
     float: left;
+    margin: 10px;
 }
+nav a {
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+nav  a:hover, nav a.active {
+    background-color: #ffdbdb;
+}
+
 #login {
     float: right;
+    margin: 10px;
+}
+#login button {
+    background-color: #ffdbdb;
+    color: black;
+    border: none;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
 }
 #loginContainer {
-    margin-top: -10px;
     position: fixed;
+    top: 0;
+    z-index: 3;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -54,18 +80,101 @@ body {
     text-decoration: none;
 }
 
-#postList {
-    clear: both;
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+#pageContainer {
+    position: relative;
+    top: 70px;
+}
+#titleContainer {
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+#contentContainer {
+    background-color: yellow;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+}
+#leftContainer {
+    background-color: #c64139;
+    color: black;
+    border-radius: 2px;
+    margin-right: 70px;
+    padding-bottom: 10px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+#sidebarContainer {
+    
+}
+#sidebarContainer a {
+    text-decoration: none;
+}
+.groupLabel {
+    color: black;
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1.5px solid black;
+    vertical-align: middle;
+}
+.active, .groupLabel:hover {
+    background-color: #ffdbdb;
+}
+.groupImg {
+    width: 35px;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#rightContainer {
+    width: 60%;
+    float: left;
+}
+#newPostContainer {
+    background-color: #c64139;
+    padding: 5px 35px 20px 35px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+#newPostTextArea {
+    display: block;
+    background-color: #ffc4c4;
+    padding: 10px;
+    min-width: 75%;
+    min-height: 75px;
+}
+#newPostContainer input {
+    display: block;
+    margin-top: 10px;
+}
+#newPostContainer input[type=submit] {
+    background-color: #ffdbdb;
+    color: black;
+    border: none;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+#postContainer {
+    background-color: #c64139;
+    padding: 35px 35px 20px 35px;
+    width: 100%;
+    border-radius: 2px;
 }
 .groupPost {
-    background-color: #CCCCCC;
+    background-color: #ffdbdb;
+    box-shadow: 2px 2px;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 15px;
+    margin-bottom: 15px;
     border-radius: 3px;
 }
