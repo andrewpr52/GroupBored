@@ -1,9 +1,6 @@
 html {
     background-color: #ffdbdb;
-<<<<<<< HEAD
     font-family: Arial, Helvetica, sans-serif;
-=======
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
     margin: 0px;
     padding: 0px;
 }
@@ -19,11 +16,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: #c64139;
-<<<<<<< HEAD
     border-bottom: 2px solid #550400;
-=======
-    box-shadow: 0px 2px #550400;
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
 }
 nav {
     float: left;
@@ -42,11 +35,7 @@ nav  a:hover, nav a.active {
 
 #login {
     float: right;
-<<<<<<< HEAD
     margin: 8px;
-=======
-    margin: 10px;
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
 }
 #login button {
     background-color: #ffdbdb;
@@ -103,10 +92,6 @@ nav  a:hover, nav a.active {
     text-align: center;
 }
 #contentContainer {
-<<<<<<< HEAD
-=======
-    background-color: yellow;
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
     margin: 0 auto;
     width: 80%;
     margin-top: 40px;
@@ -163,20 +148,13 @@ nav  a:hover, nav a.active {
     padding: 10px;
     min-width: 75%;
     min-height: 75px;
-<<<<<<< HEAD
     resize: none;
-=======
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
 }
 #newPostContainer input {
     display: block;
     margin-top: 10px;
 }
-<<<<<<< HEAD
 #newPostContainer input[type=submit], #contactForm input[type=submit] {
-=======
-#newPostContainer input[type=submit] {
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
     background-color: #ffdbdb;
     color: black;
     border: none;
@@ -200,7 +178,6 @@ nav  a:hover, nav a.active {
     padding-right: 15px;
     margin-bottom: 15px;
     border-radius: 3px;
-<<<<<<< HEAD
 }
 
 #middleContainer {
@@ -230,6 +207,4 @@ nav  a:hover, nav a.active {
 #contactForm input[type=text], #contactForm input[type=email] {
     width: 40%;
     background-color: #ffc4c4;
-=======
->>>>>>> 2b998dac6bb094fd2efca2f8f26ec69935d2a066
 }
